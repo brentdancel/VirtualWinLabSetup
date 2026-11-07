@@ -4,11 +4,11 @@ In my virtual lab environment, I decided to use Oracle VirtualBox as my hypervis
 Installation link for Oracle VirtualBox:
 https://www.virtualbox.org/wiki/Downloads
 
-    - Also install the VirtualBox Extension Pack for additional features
+    - Install the VirtualBox Extension Pack for additional features
 
-Choose the appropriate file location for your application (C: drive)
+Choose the appropriate file location for your application
 
-If you have 2 drives, install hypervisor on C: drive and then the ISOs/VMs on other drive
+If you have 2 drives, install hypervisor on your main drive and then the ISOs/VMs on other drive
 
 # Install Windows Server 2025 ISO
 For Windows Server, I chose Windows Server 2025.
@@ -37,5 +37,49 @@ https://www.microsoft.com/en-us/software-download/windows11
     - You can still practice key concepts
 
 # Configure Hypervisor
+To begin installation, double click the installation file for Oracle VirtualBox hypervisor. I installed it on my Desktop for easier access.
+
+- You must agree to the terms to continue installation
+- Verify Install location of your application
+
+!!!! To finalize install, your network will be disconnected momentarily. Save your work !!!!
+
+After successful install, you can now use Oracle VirtualBox
 
 # Install VMs
+To install Windows Server and the Windows 11 Client, click on "New" at the top right and a window appears for creating a new VM
+(Refer to screenshots)
+
+- Organize your folders and files accordingly
+- If you have 2 drives, install VMs on other drive
+
+For the "Set up unattended guest OS installation" window, set your password
+- Write down the password
+- Change the domain name as well for lab purposes
+
+At the "Specify virtual hardware" window, use the recommended settings for running DC1, Server1, Win11
+
+DC1:
+Base Memory -> 4096
+Number of CPUs -> 2
+Disk Size -> 60
+
+Server1:
+Base Memory -> 4096
+Number of CPUs -> 2
+Disk Size -> 60
+
+Win11:
+Base Memory -> 4096
+Number of CPUs -> 4
+Disk Size -> 60
+
+- This is all dependent on the host machine; Adjust settings accordingly to run all 3 VMs simultaneosly
+
+After inputting the settings, review the configuration settings and create the VM!
+- Verify if files were installed at the right location
+- The VM will automatically startup
+
+Repeat for Server1 and Win11 Client (Refer to screenshots)
+
+After installing all the VMs, you should have 3 VMs ready to use for the Windows Lab Environment

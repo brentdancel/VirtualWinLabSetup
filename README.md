@@ -4,7 +4,11 @@
 This project documents my journey setting up a virtual Windows lab using Oracle VirtualBox as the hypervisor.  
 The goal is to learn virtualization fundamentals and build a Windows homelab environment.
 
-# Hardware Requirements (Host Machine)
+# Hardware Requirements (Laptop Used)
+CPU:
+GPU:
+RAM:
+SSD Storage:
 
 
 # Tools Used
