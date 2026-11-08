@@ -14,8 +14,11 @@ If you have 2 drives, install hypervisor on your main drive and then the ISOs/VM
 For Windows Server, I chose Windows Server 2025.
 
 Installation link for Windows 2025:
-https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025
+https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025
 
+A new window should appear, asking you to input your information
+YOU DO NOT HAVE TO PUT YOUR PERSONAL INFORMATION (see screenshot)
+Afterwards, you should have the option to select your desired ISO
 
 !!!! The ISO that is being installed is a 180-day Evaluation !!!!!!
 
@@ -50,6 +53,7 @@ After successful install, you can now use Oracle VirtualBox
 To install Windows Server and the Windows 11 Client, click on "New" at the top right and a window appears for creating a new VM
 (Refer to screenshots)
 
+!!!! ENSURE YOU PICK THE DESKTOP EXPERIENCE FOR WINDOWS SERVER !!!!
 - Organize your folders and files accordingly
 - If you have 2 drives, install VMs on other drive
 
@@ -74,12 +78,12 @@ Base Memory -> 4096
 Number of CPUs -> 4  
 Disk Size -> 80  
 
-- This is all dependent on the host machine; Adjust settings accordingly to run all 3 VMs simultaneosly
+- This is all dependent on the host machine; Adjust settings accordingly to run all 3 VMs simultaneously
 
 After inputting the settings, review the configuration settings and create the VM!
 - Verify if files were installed at the right location
-- The VM will automatically startup
+- The VM will automatically startup, DO NOT SHUT THEM DOWN
 
 Repeat for Server1 and Win11 Client (Refer to screenshots)
 
-After installing all the VMs, you should have 3 VMs ready to use for the Windows Lab Environment
+After installing all the VMs, you should have 3 VMs running simultaneously!
