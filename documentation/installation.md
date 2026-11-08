@@ -60,19 +60,19 @@ For the "Set up unattended guest OS installation" window, set your password
 At the "Specify virtual hardware" window, use the recommended settings for running DC1, Server1, Win11
 
 DC1:
-Base Memory -> 4096
-Number of CPUs -> 2
-Disk Size -> 60
+Base Memory -> 4096  
+Number of CPUs -> 2  
+Disk Size -> 60  
 
 Server1:
-Base Memory -> 4096
-Number of CPUs -> 2
-Disk Size -> 60
+Base Memory -> 4096  
+Number of CPUs -> 2  
+Disk Size -> 60  
 
 Win11:
-Base Memory -> 4096
-Number of CPUs -> 4
-Disk Size -> 60
+Base Memory -> 4096  
+Number of CPUs -> 4  
+Disk Size -> 80  
 
 - This is all dependent on the host machine; Adjust settings accordingly to run all 3 VMs simultaneosly
 
